@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: monospace;
+            background-color: beige;
+        }
+        p{
+            font-size: 16px;
+        }
+        button{
+            padding: 15px 15px;
+            margin: 16px 16px;
+            border: 1px solid brown;
+            color: white;
+            font-size: 16px;
+            border-radius: 30px;
+            background-color: brown;
+            box-shadow: rgba(0 4px 8px 0 rgba(0, 0, 0, 0.6));
+            cursor: pointer;
+            transition: all 200ms ease-in-out;
+        }
+        button:hover{
+            color:black;
+            background-color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <h1> Welcome to my portfolio!</h1>
+    <p>
+        Below you will find 4 projects <br>
+        2 are user experience soley where I <br>
+        outline the whole design process from <br>
+        ideation to the final product prototypes. <br>
+    </p>
+    <button onclick="redirectToPage()">View Projects</button>
+    <script>
+        function redirectToPage(){
+            window.location.href = 'projects.html';
+        }
+
+    </script>
+</body>
+</html>
